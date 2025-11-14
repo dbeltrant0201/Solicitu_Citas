@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<img src="{{ url_for('static', filename='fondo.jpg') }}" alt="Fondo">
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro - VidaPlena</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1>Registro de Paciente</h1>
+    <form method="post">
+        <input type="text" name="nombre" placeholder="Nombre completo" required>
+        <input type="number" name="edad" placeholder="Edad" required>
+        <input type="text" name="cedula" placeholder="Cédula" required>
+        <input type="text" name="direccion" placeholder="Dirección domiciliar" required>
+        <input type="text" name="departamento" placeholder="Departamento" required>
+        <input type="password" name="password" placeholder="Contraseña" required>
+        <button type="submit">Registrar</button>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<img src="{{ url_for('static', filename='fondo.jpg') }}" alt="Fondo">
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Hospital VidaPlena</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <img src="https://preview.redd.it/simple-medical-cross-logo-for-a-small-website-v0-rrz16h7axwdd1.png?width=1000&format=png&auto=webp&s=25c35a3deb7d22f38229f5007d9636bac1cce998" alt="Logo">
+      <strong>Hospital VidaPlena</strong>
+    </a>
+    <div class="ms-auto">
+      <a href="/registro" class="btn btn-primary me-2">Registrarse</a>
+      <a href="/login" class="btn btn-success">Iniciar Sesión</a>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1>Bienvenido a Hospital VidaPlena 🏥</h1>
+  <p>Atención médica confiable, humana y moderna para toda tu familia.</p>
+</div>
+
+<div class="container container-custom text-center">
+  <h3>Tu salud, nuestra prioridad</h3>
+  <p>
+    En Hospital VidaPlena, cuidamos de ti con profesionales comprometidos y tecnología avanzada.
+  </p>
+</div>
+
+<footer>
+  © 2025 Hospital VidaPlena — Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
