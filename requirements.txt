@@ -1,4 +1,8 @@
-anyio==4.7.0
-argon2-cffi==23.1.0
-arrow==1.3.0
-# Otras dependencias
+Flask==3.1.0
+Flask-SQLAlchemy==3.1.1
+SQLAlchemy==2.0.44
+gunicorn==23.0.0
+psycopg2-binary==2.9.11
+flask-cors==6.0.1
+requests==2.32.3
+httpx==0.28.1
